@@ -19,7 +19,7 @@ import {
   Users,
   Award
 } from "lucide-react";
-import heroImage from "figma:asset/e41cd012327332c8710285fad37e540f72ad6a37.png";
+import heroImage from "../assets/e41cd012327332c8710285fad37e540f72ad6a37.png";
 import { Nav } from "../../imports/Desktop72";
 import { Footer } from "./Footer";
 

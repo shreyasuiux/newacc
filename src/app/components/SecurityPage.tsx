@@ -19,7 +19,7 @@ import {
 import { Nav } from "../../imports/Desktop72";
 import { GradientCTAButton } from "./GradientCTAButton";
 import { Footer } from "./Footer";
-import dashboardImg from "figma:asset/29053ebd206c6c622f83685d6124ce31792e8465.png";
+import dashboardImg from "../assets/29053ebd206c6c622f83685d6124ce31792e8465.png";
 import { CTASection } from "./CTASection";
 
 // Security Page Component
@@ -387,7 +387,7 @@ export function SecurityPage({
                     </h4>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {[
-                        { value: "100%", label: "Asset Discovery" },
+                        { value: "100%", label: "../assets Discovery" },
                         { value: "85%", label: "Risk Reduction" },
                         { value: "98%", label: "Compliance Score" },
                         { value: "90%", label: "Automation Rate" }

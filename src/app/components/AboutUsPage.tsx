@@ -17,51 +17,51 @@ import { Nav } from '../../imports/Desktop72';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 // Import Our Initiatives Images
-import initiativeImg1 from 'figma:asset/9bf64763e80240a076498f7927e98c4ae713fca0.png';
-import initiativeImg2 from 'figma:asset/b2dd2071572718606e2154e8ce96cc9a02d8b5d3.png';
-import initiativeImg3 from 'figma:asset/9a70cf65aa08ed79f7a7608d1a4836bc36b0d9e6.png';
-import initiativeImg4 from 'figma:asset/fc320e75b25d80a3430750ed622a1fbefd6f7c64.png';
-import initiativeImg5 from 'figma:asset/fc72ccea1afff8d94c419573a638b0ee303b4c0c.png';
-import initiativeImg6 from 'figma:asset/4ca36db6682d50e54d3d5a0581b7d5fce966bbd5.png';
+import initiativeImg1 from '../../assets/9bf64763e80240a076498f7927e98c4ae713fca0.png';
+import initiativeImg2 from '../../assets/b2dd2071572718606e2154e8ce96cc9a02d8b5d3.png';
+import initiativeImg3 from '../../assets/9a70cf65aa08ed79f7a7608d1a4836bc36b0d9e6.png';
+import initiativeImg4 from '../../assets/fc320e75b25d80a3430750ed622a1fbefd6f7c64.png';
+import initiativeImg5 from '../../assets/fc72ccea1afff8d94c419573a638b0ee303b4c0c.png';
+import initiativeImg6 from '../../assets/4ca36db6682d50e54d3d5a0581b7d5fce966bbd5.png';
 
 // Import ACC Sports Culture Images (Set 1 of 3)
-import sportsImg1 from 'figma:asset/466196444e0309c58107dc9996fa62e467c81a0e.png';
-import sportsImg2 from 'figma:asset/a4911890851b1bb8376062247e886f1d9a24ac0c.png';
-import sportsImg3 from 'figma:asset/518c6c3f1e3dffa1008ad20907ff787ac547a393.png';
+import sportsImg1 from '../../assets/466196444e0309c58107dc9996fa62e467c81a0e.png';
+import sportsImg2 from '../../assets/a4911890851b1bb8376062247e886f1d9a24ac0c.png';
+import sportsImg3 from '../../assets/518c6c3f1e3dffa1008ad20907ff787ac547a393.png';
 
 // Import ACC Sports Culture Images (Set 2 of 3)
-import sportsImg4 from 'figma:asset/35101aee231e56f3932717a233a7c1c1429bef4d.png';
-import sportsImg5 from 'figma:asset/3b485fd59385670e325acde9bd2e37310b7e109f.png';
-import sportsImg6 from 'figma:asset/752c9b0a691627f3aba498e129630ecd9d2bdd2a.png';
+import sportsImg4 from '../../assets/35101aee231e56f3932717a233a7c1c1429bef4d.png';
+import sportsImg5 from '../../assets/3b485fd59385670e325acde9bd2e37310b7e109f.png';
+import sportsImg6 from '../../assets/752c9b0a691627f3aba498e129630ecd9d2bdd2a.png';
 
 // Import ACC Sports Culture Images (Set 3 of 3)
-import sportsImg7 from 'figma:asset/a10306cd4248c3653a5abdb6f052eb1c1bf33d37.png';
-import sportsImg8 from 'figma:asset/4271a31e8a5759f25b6e70836b2cb974be85d573.png';
-import sportsImg9 from 'figma:asset/4040e1b9c924bbd458841371b71f99cce8ab969f.png';
+import sportsImg7 from '../../assets/a10306cd4248c3653a5abdb6f052eb1c1bf33d37.png';
+import sportsImg8 from '../../assets/4271a31e8a5759f25b6e70836b2cb974be85d573.png';
+import sportsImg9 from '../../assets/4040e1b9c924bbd458841371b71f99cce8ab969f.png';
 
 // Import ACC Sports Culture Images (Set 4 - Additional)
-import sportsImg10 from 'figma:asset/897def581f3b7f27400e8dc899be8575dbdff2e3.png';
-import sportsImg11 from 'figma:asset/658afb09da7887bfbdf51e3df6283a0a0120fd5a.png';
-import sportsImg12 from 'figma:asset/4032b83b2305add00e9ec6208c455b8894d995de.png';
+import sportsImg10 from '../../assets/897def581f3b7f27400e8dc899be8575dbdff2e3.png';
+import sportsImg11 from '../../assets/658afb09da7887bfbdf51e3df6283a0a0120fd5a.png';
+import sportsImg12 from '../../assets/4032b83b2305add00e9ec6208c455b8894d995de.png';
 
 // Import ACC Sports Culture Images (Set 5 - Additional)
-import sportsImg13 from 'figma:asset/b3453236164fc3430c397b0ec7178e8a1e5456ee.png';
-import sportsImg14 from 'figma:asset/9b251072db6db179cb9aa764eeb599ce397d5b66.png';
-import sportsImg15 from 'figma:asset/fe37ae767ce4fabe9539ed8161800d5496660ff8.png';
+import sportsImg13 from '../../assets/b3453236164fc3430c397b0ec7178e8a1e5456ee.png';
+import sportsImg14 from '../../assets/9b251072db6db179cb9aa764eeb599ce397d5b66.png';
+import sportsImg15 from '../../assets/fe37ae767ce4fabe9539ed8161800d5496660ff8.png';
 
 // Import Rewards and Recognition Images
-import rewardsImg1 from 'figma:asset/6cca96e924a63e08093d42a9a8cae26c68579671.png';
-import rewardsImg2 from 'figma:asset/dff95dddfc96f2bf1cde08642b47e535e8c5faec.png';
-import rewardsImg3 from 'figma:asset/f7f6e538aeefd0262aeffe3119e2517f2c5c3294.png';
-import rewardsImg4 from 'figma:asset/2f2aec276211e747d29ef5ff2fed85bf88148086.png';
-import rewardsImg5 from 'figma:asset/1bc40f5719a31e462d42cab063401d3d8cc511b8.png';
-import rewardsImg6 from 'figma:asset/a9f3bc6ea7c56f56abba4465b6aa2b3e6a671ed7.png';
-import rewardsImg7 from 'figma:asset/175919eefebd6d3a64850c1c8f88231629bda4bc.png';
-import rewardsImg8 from 'figma:asset/863004ef523ae1f1019b0d36ccfc0a1d9067d95f.png';
-import rewardsImg9 from 'figma:asset/f74330dc610aa16195f16725a23ce498b1abeb1a.png';
-import rewardsImg10 from 'figma:asset/ce939824671c9ec90f74eb277827edc8ca5d9610.png';
-import rewardsImg11 from 'figma:asset/e72b8f8544b4b6c612cbf4dac4cd881b38ded9ee.png';
-import rewardsImg12 from 'figma:asset/7f18d71a9ffc9d2845149dce4911fdc2f0b68ed2.png';
+import rewardsImg1 from '../../assets/6cca96e924a63e08093d42a9a8cae26c68579671.png';
+import rewardsImg2 from '../../assets/dff95dddfc96f2bf1cde08642b47e535e8c5faec.png';
+import rewardsImg3 from '../../assets/f7f6e538aeefd0262aeffe3119e2517f2c5c3294.png';
+import rewardsImg4 from '../../assets/2f2aec276211e747d29ef5ff2fed85bf88148086.png';
+import rewardsImg5 from '../../assets/1bc40f5719a31e462d42cab063401d3d8cc511b8.png';
+import rewardsImg6 from '../../assets/a9f3bc6ea7c56f56abba4465b6aa2b3e6a671ed7.png';
+import rewardsImg7 from '../../assets/175919eefebd6d3a64850c1c8f88231629bda4bc.png';
+import rewardsImg8 from '../../assets/863004ef523ae1f1019b0d36ccfc0a1d9067d95f.png';
+import rewardsImg9 from '../../assets/f74330dc610aa16195f16725a23ce498b1abeb1a.png';
+import rewardsImg10 from '../../assets/ce939824671c9ec90f74eb277827edc8ca5d9610.png';
+import rewardsImg11 from '../../assets/e72b8f8544b4b6c612cbf4dac4cd881b38ded9ee.png';
+import rewardsImg12 from '../../assets/7f18d71a9ffc9d2845149dce4911fdc2f0b68ed2.png';
 
 // Animated particle background component
 const ParticleField = () => {

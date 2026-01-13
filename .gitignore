@@ -1,0 +1,92 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+build/
+dist/
+out/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Coverage & test reports
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# Cache & temp files
+# =========================
+.cache/
+.parcel-cache/
+.eslintcache
+.tmp/
+temp/
+
+# =========================
+# Next.js (if applicable)
+# =========================
+.next/
+.next/cache/
+
+# =========================
+# Vite
+# =========================
+.vite/
+
+# =========================
+# Storybook
+# =========================
+storybook-static/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Misc
+# =========================
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Optional: lockfiles (KEEP ONE)
+# =========================
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml

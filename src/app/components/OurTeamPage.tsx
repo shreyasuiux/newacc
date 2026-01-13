@@ -17,14 +17,14 @@ import {
 import { Footer } from "./Footer";
 import { Nav } from "../../imports/Desktop72";
 import { Logo } from "./Logo";
-import nileshImage from "figma:asset/b80572a25a08475d09dc37d1abf2fce4f72c0b71.png";
-import roginImage from "figma:asset/5685ff2e056dfa1e9912bd2ccbe23c6d8a24a5fe.png";
-import shubhoImage from "figma:asset/5a9665dc5bb0acd277f054cb189a3ca3ca08caca.png";
-import ghanshyamImage from "figma:asset/c7a46eb6c93832045fe74ef6c407fe8d8863f24a.png";
-import mithunImage from "figma:asset/0c7842c9dc87b50359dff7ed9674bb2f8bcd1936.png";
-import reemaImage from "figma:asset/2d690d90fb59c300d87ba32b7237e83d0743ea85.png";
-import priyankaImage from "figma:asset/59ed03aa4774efa6bdfb05c3506765d58ddf3156.png";
-import sachinImage from "figma:asset/a9aa5d6e3a92fbd8d8a4255e2f951dda566a4ce2.png";
+import nileshImage from "../../assets/b80572a25a08475d09dc37d1abf2fce4f72c0b71.png";
+import roginImage from "../../assets/5685ff2e056dfa1e9912bd2ccbe23c6d8a24a5fe.png";
+import shubhoImage from "../../assets/5a9665dc5bb0acd277f054cb189a3ca3ca08caca.png";
+import ghanshyamImage from "../../assets/c7a46eb6c93832045fe74ef6c407fe8d8863f24a.png";
+import mithunImage from "../../assets/0c7842c9dc87b50359dff7ed9674bb2f8bcd1936.png";
+import reemaImage from "../../assets/2d690d90fb59c300d87ba32b7237e83d0743ea85.png";
+import priyankaImage from "../../assets/59ed03aa4774efa6bdfb05c3506765d58ddf3156.png";
+import sachinImage from "../../assets/a9aa5d6e3a92fbd8d8a4255e2f951dda566a4ce2.png";
 
 // ACC Leadership data
 const leaders = [
